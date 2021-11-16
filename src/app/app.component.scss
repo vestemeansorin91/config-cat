@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin: 64px auto;
+  max-width: 500px;
+}
+
+// HELPERS
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+    text-align: center;
+  }
+
+// TABLE
+table {
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 8px;
+  margin: 24px;
+
+  thead {
+  border-radius: 8px;
+
+    th {
+      padding: 8px 24px;
+    }
+  }
+
+  tbody {
+    tr {
+
+      td {
+        padding: 8px 24px;
+
+        span {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+// VENDORS
+mat-radio-group {
+    display: flex;
+    width: 100%;
+    padding-left: 32px;
+    margin-bottom: 24px;
+
+    mat-radio-button {
+        margin-right: 24px;
+    }
+}
+
+mat-form-field {
+  width: calc(100% - 50px);
+}
+
+label {
+    display: flex;
+    width: 100%;
+    padding-left: 32px;
+}
